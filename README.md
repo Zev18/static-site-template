@@ -55,6 +55,7 @@ You can embed all kinds of other things like social media posts or youtube video
 
 - [Web Dev Simplified (youtube)](https://www.youtube.com/@WebDevSimplified)
 - [web.dev (free introductory courses made by google)](https://web.dev/learn/)
+- [W3 (plenty of guides on all kinds of coding stuff)](https://www.w3schools.com/)
 - Copy paste code & errors into AI to help debug
   - I recommend avoiding using AI to generate code, but AI can be extremely useful as a troubleshooter!
 
