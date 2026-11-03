@@ -1,0 +1,60 @@
+# Zev's website starter kit
+
+This is a starter kit for making a basic HTML + CSS website.
+
+> [!NOTE]
+> This is an entirely client-side website. Everything in this entire project will be publicly available. Do not write any sensitive information ANYWHERE in the code you deploy, even as a comment!
+
+## Cheatsheet
+
+### HTML
+
+- `div` for containers, `p` for text, `h1-h3` for headings, `a` for links, `img` for images
+- Each element has an opening tag `<div>` and a closing tag `</div>`
+- Multiple elements can have the same class, but no 2 elements should have the same id
+
+### CSS
+
+- Use [flexbox](https://flexbox.malven.co/) or [grid](https://grid.malven.co/) to position elements inside a div
+- color is for text, background-color is for backgrounds
+- Outside to inside: margin > border > padding
+- Units:
+  - `px`: pixels
+  - `rem`: unit based on the html element's font size (1rem = 16px by default)
+  - `vw`/`vh`: percentage of screen width and height respectively
+- Media query (set something if screen is bigger than a certain size): `@media screen and (min-width: 480px) {...}`
+
+## More things you can add!
+
+### GIFs
+
+Download a gif and put it in a folder, then link to that path in an `img` tag.
+
+```html
+<img src="images/gifs/name-of-gif.gif" alt="this is a gif.">
+```
+
+### Spotify songs
+
+In spotify, right click on a song, go to "share," and hit "embed track." Then copy that code and paste it into your html file!
+
+### Embeds
+
+You can embed all kinds of other things like social media posts or youtube videos. Just add "embed" at the end of your google search to see if you can embed it! Then follow the instructions and copy paste the code into your HTML page.
+
+## If you want to learn more
+
+### Frameworks to research & learn
+
+- [Tailwind](https://tailwindcss.com/)
+  - A method of stlying elements much faster than constantly writing individual css classes
+- [Astro](https://astro.build/)
+  - A powerful framework that lets you do things raw html/css/js doesn't, such as automatically loading and optimizing images, breaking down pages into reusable components, and adding more interactivity
+
+### Educational resources
+
+- [Web Dev Simplified (youtube)](https://www.youtube.com/@WebDevSimplified)
+- [web.dev (free introductory courses made by google)](https://web.dev/learn/)
+- Copy paste code & errors into AI to help debug
+  - I recommend avoiding using AI to generate code, but AI can be extremely useful as a troubleshooter!
+
