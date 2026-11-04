@@ -3,6 +3,8 @@ This is the stylesheet! This document tells the HTML what visual effects, known 
 to give to its elements.
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Special+Gothic+Condensed+One&display=swap');
+
 /* ---- boilerplate ---- */
 *,
 *::before,
@@ -22,6 +24,26 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+h3 {
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+p {
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -30,9 +52,10 @@ body {
     width: 100%;
 }
 
-
 /* ---- styles for gallery images ---- */
 .gallery-image {
     max-width: 100%;
     /* add more here... */
 }
+
+.header {}
