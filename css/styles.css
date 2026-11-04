@@ -53,7 +53,6 @@ h3 {
         "wdth" 100;
 }
 
-p,
 .monospace {
     font-family: "Martian Mono", monospace;
     font-optical-sizing: auto;
@@ -129,5 +128,6 @@ p,
 @media screen and (min-width: 480px) {
     .flex-vh {
         flex-direction: row;
+        align-items: center;
     }
 }

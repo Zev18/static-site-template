@@ -1,0 +1,12 @@
+.bio {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--searing-blue)
+}
+
+.pfp {
+    border-radius: 8px;
+    border: 4px solid var(--searing-blue);
+    min-width: 0;
+    max-width: 30%;
+}

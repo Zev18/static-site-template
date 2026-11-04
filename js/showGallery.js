@@ -12,7 +12,23 @@ Finally, make sure this script is loaded into your html file like so:
 
 */
 
-const images = []
+const images = [
+    "Ai.png",
+    "batman.png",
+    "better.png",
+    "Gwen.png",
+    "Hey.png",
+    "Hi_Everyone.png",
+    "Illustration3.png",
+    "left_behind.PNG",
+    "ltbao.png",
+    "miku.png",
+    "Pey_.png",
+    "pfp2026.png",
+    "U_Cold.png",
+    "Window.png",
+    "worse.png",
+];
 
 const gallery = document.getElementById("gallery");
 
