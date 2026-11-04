@@ -5,6 +5,18 @@ to give to its elements.
 
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Special+Gothic+Condensed+One&display=swap');
 
+/* ---- color palette ---- */
+:root {
+    /*
+        Declare like:
+        --my-custom-color: #ffffff
+
+        Use like:
+        var(--my-custom-color)
+    */
+    --searing-blue: #3221ff
+}
+
 /* ---- boilerplate ---- */
 *,
 *::before,
