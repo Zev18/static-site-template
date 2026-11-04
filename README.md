@@ -34,6 +34,10 @@ Download a gif and put it in a folder, then link to that path in an `img` tag.
 <img src="images/gifs/name-of-gif.gif" alt="this is a gif.">
 ```
 
+### CSS patterns
+
+If you want to add a pattern, you don't always have to create a new graphic from scratch. Sometimes you can create patterns with just css alone. There are tools like [this one](https://www.magicpattern.design/tools/css-backgrounds) that do all the hard work for you!
+
 ### Spotify songs
 
 In spotify, right click on a song, go to "share," and hit "embed track." Then copy that code and paste it into your html file!
