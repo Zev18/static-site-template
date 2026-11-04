@@ -3,6 +3,17 @@ This is the stylesheet! This document tells the HTML what visual effects, known 
 to give to its elements.
 */
 
+/* ---- color palette ---- */
+:root {
+    /*
+        Declare like:
+        --my-custom-color: #ffffff
+
+        Use like:
+        var(--my-custom-color)
+    */
+}
+
 /* ---- boilerplate ---- */
 *,
 *::before,
