@@ -37,21 +37,29 @@ Download a gif and put it in a folder, then link to that path in an `img` tag.
 ### Spotify songs
 
 In spotify, right click on a song, go to "share," and hit "embed track." Then copy that code and paste it into your html file!
+Bandcamp has an embeddable widget too.
 
-### Embeds
+### Embeddable widgets
 
 You can embed all kinds of other things like social media posts or youtube videos. Just add "embed" at the end of your google search to see if you can embed it! Then follow the instructions and copy paste the code into your HTML page.
 
+Here's some places where you can find cool & easy embeds:
+
+- [404city](https://404city.neocities.org/home)
+- [Widget star (account creation & domain registration required)](https://widget.st/)
+
+Take inspiration from other indie web sites! You can look at their code and see how they work. You might find new widgets you can add or resources you can use!
+
 ## If you want to learn more
 
-### Frameworks to research & learn
+If you want to learn more than what we've covered in this workshop, or if you want more in-depth explinations on anything, then here's some more stuff to check out!
 
-- [Tailwind](https://tailwindcss.com/)
-  - A method of stlying elements much faster than constantly writing individual css classes
-- [Astro](https://astro.build/)
-  - A powerful framework that lets you do things raw html/css/js doesn't, such as automatically loading and optimizing images, breaking down pages into reusable components, and adding more interactivity
+### More beginner-friendly guides/tutorials
 
-### Educational resources
+- [Neocities tutorials](https://neocities.org/tutorials)
+- [HTML for people](https://htmlforpeople.com/)
+
+### In-depth resources
 
 - [Web Dev Simplified (youtube)](https://www.youtube.com/@WebDevSimplified)
 - [web.dev (free introductory courses made by google)](https://web.dev/learn/)
@@ -59,3 +67,9 @@ You can embed all kinds of other things like social media posts or youtube video
 - Copy paste code & errors into AI to help debug
   - I recommend avoiding using AI to generate code, but AI can be extremely useful as a troubleshooter!
 
+### Frameworks to research & learn
+
+- [Tailwind](https://tailwindcss.com/)
+  - A method of stlying elements much faster than constantly writing individual css classes
+- [Astro](https://astro.build/)
+  - A powerful framework that lets you do things raw html/css/js doesn't, such as automatically loading and optimizing images, breaking down pages into reusable components, and adding more interactivity
