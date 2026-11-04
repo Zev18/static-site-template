@@ -1,0 +1,14 @@
+.header {
+    background-color: var(--searing-blue);
+    padding: 1rem;
+    color: white;
+}
+
+.header-title {
+    padding: 4px 0
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}

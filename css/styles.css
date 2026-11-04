@@ -3,7 +3,7 @@ This is the stylesheet! This document tells the HTML what visual effects, known 
 to give to its elements.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Special+Gothic+Condensed+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=TASA+Orbiter:wght@400..800&display=swap');
 
 /* ---- color palette ---- */
 :root {
@@ -34,6 +34,12 @@ body {
     justify-content: center;
     padding: 1rem;
     margin: 0;
+
+    font-family: "TASA Orbiter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 h1,
@@ -47,7 +53,8 @@ h3 {
         "wdth" 100;
 }
 
-p {
+p,
+.monospace {
     font-family: "Martian Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -64,10 +71,63 @@ p {
     width: 100%;
 }
 
+.flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.flex-v,
+.flex-vh {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.container {
+    padding: 4px
+}
+
+.container-2 {
+    padding: 8px
+}
+
+.w-full {
+    width: 100%;
+}
+
+.gap-2 {
+    gap: 8px;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.grow {
+    flex-grow: 1
+}
+
+.stripes {
+    height: 100%;
+    width: 100%;
+    background: repeating-linear-gradient(135deg,
+            transparent,
+            transparent 10px,
+            white 10px,
+            white 20px);
+
+}
+
 /* ---- styles for gallery images ---- */
 .gallery-image {
     max-width: 100%;
     /* add more here... */
 }
 
-.header {}
+
+@media screen and (min-width: 480px) {
+    .flex-vh {
+        flex-direction: row;
+    }
+}

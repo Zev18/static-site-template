@@ -13,6 +13,7 @@
 
     <!-- This tells the webpage where the stylesheet is! -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
     <!-- This adds a script -->
     <script src="js/showGallery.js" defer></script>
 
@@ -23,8 +24,18 @@
 <body>
     <!-- Everything that people will see should go inside the <body>! -->
     <div class="main">
-        <div class="header">
-            <h1>Zev's website</h1>
+        <div class="header flex-v gap-2">
+            <div class="flex between">
+                <h1 class="grow w-full header-title">Zev's demo website</h1>
+                <div class="stripes"></div>
+            </div>
+            <div class="flex-vh between gap-2">
+                <p>You can make a website like this one too!</p>
+                <div class="flex gap-2">
+                    <a href="/about" class="nav-link">About me</a>
+                    <a href="/portfolio" class="nav-link">My portfolio</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
