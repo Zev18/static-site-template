@@ -60,10 +60,15 @@ If you want to learn more than what we've covered in this workshop, or if you wa
 
 ### More beginner-friendly guides/tutorials
 
+These resources are either by or for indie web creators specifically! They should provide more in-depth info about what we covered in the workshop, and some new concepts and tools for styling your pages and going for that early 90's-00's web look.
+
 - [Neocities tutorials](https://neocities.org/tutorials)
 - [HTML for people](https://htmlforpeople.com/)
+- [sadgrl (collection of tools and guides for building layouts & styles)](https://sadgrl.online/resources/)
 
 ### In-depth resources
+
+These resources should help you if you want to learn more about web development in general.
 
 - [Web Dev Simplified (youtube)](https://www.youtube.com/@WebDevSimplified)
 - [web.dev (free introductory courses made by google)](https://web.dev/learn/)
@@ -72,6 +77,8 @@ If you want to learn more than what we've covered in this workshop, or if you wa
   - I recommend avoiding using AI to generate code, but AI can be extremely useful as a troubleshooter!
 
 ### Frameworks to research & learn
+
+If you really want to go all out and make a truly professional-looking website, I recommend researching these frameworks. They will help you code faster, keep your code everything more organized, and give your website better performance (like faster image loading)
 
 - [Tailwind](https://tailwindcss.com/)
   - A method of stlying elements much faster than constantly writing individual css classes
