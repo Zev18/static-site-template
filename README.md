@@ -20,6 +20,7 @@ This is a starter kit for making a basic HTML + CSS website.
 - Outside to inside: margin > border > padding
 - Units:
   - `px`: pixels
+  - `%`: percentage of the (width/height) of the parent container
   - `rem`: unit based on the html element's font size (1rem = 16px by default)
   - `vw`/`vh`: percentage of screen width and height respectively
 - Media query (set something if screen is bigger than a certain size): `@media screen and (min-width: 480px) {...}`
