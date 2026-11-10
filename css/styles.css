@@ -41,9 +41,14 @@ body {
     width: 100%;
 }
 
+img {
+    min-width: none;
+}
+
 
 /* ---- styles for gallery images ---- */
 .gallery-image {
     max-width: 100%;
+    content-visibility: auto;
     /* add more here... */
 }
