@@ -29,12 +29,12 @@ body {
     min-height: 100dvh;
     display: flex;
     justify-content: center;
-    padding: 1rem;
     margin: 0;
 }
 
 .main {
     display: flex;
+    margin: 1rem;
     flex-direction: column;
     gap: 4px;
     max-width: 100ch;
