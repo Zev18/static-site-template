@@ -39,6 +39,10 @@ Download a gif and put it in a folder, then link to that path in an `img` tag.
 
 If you want to add a pattern, you don't always have to create a new graphic from scratch. Sometimes you can create patterns with just css alone. There are tools like [this one](https://www.magicpattern.design/tools/css-backgrounds) that do all the hard work for you!
 
+### Icons
+
+Want to include an Instagram or Twitter icon for your social links? What about other generic icons? Go to [tabler icons](https://tabler.io/icons) and search for the icon you want. Then you can either copy-paste the svg code into your html file, or click on the "webfont" option if you want a cleaner apporach.
+
 ### Spotify songs
 
 In spotify, right click on a song, go to "share," and hit "embed track." Then copy that code and paste it into your html file!
